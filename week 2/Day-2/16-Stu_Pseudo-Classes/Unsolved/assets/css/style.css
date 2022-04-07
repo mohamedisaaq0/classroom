@@ -88,6 +88,18 @@ footer {
 }
 
 /* TODO: Add styles to display and hide the resource links */
+.resources {
+  list-style-type: decimal;
+
+}
+
+.resources ul {
+  display: none;
+}
+
+.resources:hover ul {
+  display: block;
+}
 
 @media screen and (max-width: 768px) {
   header, main {
