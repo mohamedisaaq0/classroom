@@ -2,6 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
+  font-size: 16pt;
 }
 
 header {
@@ -15,20 +16,37 @@ header {
 
 /* TODO: Change the heading size to 200%, give it a margin all around, and assign font family to serif */
 h1 {
+  font-size: 200%;
+  margin: 5% ;
+  font-family: serif;
 }
 
 /* TODO: Change the heading size to be slightly smaller than h1, give it a margin only on the top and bottom, and assign font family to serif */
 h2 {
+  font-size: 175%;
+  margin-top: 3.5%;
+  margin-bottom: 3.5%;
+  font-family: serif;
 }
 
 /* TODO: Change header size to be slightly smaller than h2 and assign font family to serif */
 h3 {
+  font-size: 150%;
+  font-family: serif;
+}
+
+nav {
+  flex-basis: 35%;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
+
+  
+
+  
 }
 
 nav a {
@@ -41,7 +59,8 @@ main {
   display: flex;
   flex: 1 1 0;
   max-width: 1200px;
-  margin: 2% auto;
+  margin: 50px;
+  line-height: 1.5;
 }
 
 section {
@@ -52,13 +71,19 @@ section {
 article {
   border-bottom: 1px solid #d8a47f;
 }
-
+o
 /* TODO: Add a margin to the top and bottom of the paragraphs */
 article p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 
 /* TODO: Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
 article ul {
+  font-family: monospace;
+  list-style-type: square;
+  margin: 60px
 }
 
 aside {
