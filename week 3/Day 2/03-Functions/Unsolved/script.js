@@ -8,8 +8,7 @@ function compareValue(x,y) {
     return "they are equal in type and value";
 }   else if (x==y) {
         return "they are equal in value"
-    }
-    else {
+    }else {
         return "they are not equals"
     }
 }
